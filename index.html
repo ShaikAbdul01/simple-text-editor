@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simple Text Editor</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -19,9 +18,7 @@
     <section class="bg-blue-300 mx-auto mt-6 w-3/4 rounded">
       <div class="p-4">
         <h2 class="text-center text-3xl font-semibold">My Text Editor</h2>
-        <div
-          class="bg-blue-100 mt-4 w-9/12 mx-auto "
-        >
+        <div class="bg-blue-100 mt-4 w-9/12 mx-auto">
           <div class="grid grid-cols-3 gap-8 text-center p-2">
             <div class="px-2">
               <i id="bold" class="bolder fa-solid fa-bold mx-3"></i>
@@ -34,19 +31,22 @@
               <i id="rightText" class="fa-solid fa-align-right mx-3"></i>
             </div>
             <div class="">
-              <input type="color" id="colorPicker" value="#ff0000">
+              <input type="color" id="colorPicker" value="#ff0000" />
               <i class="fa-solid fa-user mx-3"></i>
             </div>
             <!-- <hr class="border-1 border-black" /> -->
-            
-        </div>
-        <div class="bg-white mx-auto 
-        mt-4">
-          <textarea class="w-full mx-auto p-6" name="" id="textarea" cols="" rows=""></textarea>
+          </div>
+          <div class="bg-white mx-auto mt-4">
+            <textarea
+              class="w-full mx-auto p-6"
+              name=""
+              id="textarea"
+              cols=""
+              rows=""
+            ></textarea>
           </div>
         </div>
       </div>
-      
     </section>
     <script src="js/editor.js"></script>
   </body>
